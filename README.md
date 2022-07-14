@@ -11,4 +11,8 @@ yarn  install
 Run:
 yarn dev
 
+build
+yarn build
 
+Show:
+https://bullgrof.github.io/reactGifSearch/
