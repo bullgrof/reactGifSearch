@@ -4,7 +4,7 @@ import { AddCategory, GifGrid } from './components';
 
 export const GifExpertApp = () => {
 
-    const [categories, setCategories] = useState([ 'One Punch']);
+    const [categories, setCategories] = useState([ 'dev']);
     const onAddCategory = ( newCategory ) => {
        
         if (categories.includes(newCategory)) return; //includes valida si ya existe dentro del arreglo de categorias y si existe no deja agregarlo si no existe permite agregarlo al arreglo
